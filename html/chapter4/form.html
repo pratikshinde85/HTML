@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <form action="form.php">
+            <label for="nameid">
+                <input type="text" placeholder="what is your name">
+            </label> <br>
+            <label for="schoola">
+                <input type="checkbox" id="schoola">want a school
+            </label><br>
+            <label for ="sectiona">
+                <input type="radio"value="section a "id="sectiona"name="section" >Section A
+            </label>
+            <label for="sectionb">
+                <input type="radio"value="section b"id="sectionb"name="section" >Section B
+            </label>
+            <label for="sectionc">
+                <input type="radio"value="section c"id="sectionc"name="section" >Section C
+            </label><br>
+            <textarea name="textarea" id="text" cols="30" rows="4"placeholder="Enter the text"></textarea>
+            <br>
+            <select name="topology" id="topology">
+                <option value="no">Select topology</option>
+                <option value="mesh">Mesh</option>
+                <option value="mesh">Ring</option>
+                <option value="mesh">Bus</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
